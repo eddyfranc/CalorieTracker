@@ -62,7 +62,7 @@ $(document).ready(function () {
       saveToLocalStorage();
       renderFoodList();
       $('#food-form')[0].reset(); 
-  });
+  }});
 
   
   $('#food-list').on('click', '.remove-food', function () {
